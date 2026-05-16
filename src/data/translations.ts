@@ -32,13 +32,19 @@ export const translations = {
     },
 
     calendars: {
-      eyebrow: "Calendários",
-      title: "Próximos jogos",
+      eyebrow: "Calendários por escalão",
+      title: "Calendários",
       description:
-        "Consulta os próximos jogos do torneio, organizados por horário e campo.",
-      loading: "A carregar jogos...",
-      error: "Erro ao carregar os jogos.",
-      empty: "Sem próximos jogos disponíveis.",
+        "Consulta os jogos de cada escalão. Seleciona uma categoria para veres o respetivo calendário.",
+      frameTitle: "Calendário",
+      categories: {
+        sub14Fem: "Sub-14 Feminino",
+        sub15Fem: "Sub-15 Feminino",
+        sub16Fem: "Sub-16 Feminino",
+        sub21Fem: "Sub-21 Feminino",
+        sub16Masc: "Sub-16 Masculino",
+        sub21Masc: "Sub-21 Masculino",
+      },
     },
 
     gamesByField: {
@@ -126,13 +132,19 @@ export const translations = {
     },
 
     calendars: {
-      eyebrow: "Schedules",
-      title: "Upcoming games",
+      eyebrow: "Schedules by category",
+      title: "Schedules",
       description:
-        "Check the upcoming games of the tournament, organized by time and court.",
-      loading: "Loading games...",
-      error: "Error loading games.",
-      empty: "No upcoming games available.",
+        "Check the matches for each category. Select a category to view its schedule.",
+      frameTitle: "Schedule",
+      categories: {
+        sub14Fem: "U14 Girls",
+        sub15Fem: "U15 Girls",
+        sub16Fem: "U16 Girls",
+        sub21Fem: "U21 Women",
+        sub16Masc: "U16 Boys",
+        sub21Masc: "U21 Men",
+      },
     },
 
     gamesByField: {
@@ -220,13 +232,19 @@ export const translations = {
     },
 
     calendars: {
-      eyebrow: "Calendarios",
-      title: "Próximos partidos",
+      eyebrow: "Calendarios por categoría",
+      title: "Calendarios",
       description:
-        "Consulta los próximos partidos del torneo, organizados por horario y pista.",
-      loading: "Cargando partidos...",
-      error: "Error al cargar los partidos.",
-      empty: "No hay próximos partidos disponibles.",
+        "Consulta los partidos de cada categoría. Selecciona una categoría para ver su calendario.",
+      frameTitle: "Calendario",
+      categories: {
+        sub14Fem: "Sub-14 Femenino",
+        sub15Fem: "Sub-15 Femenino",
+        sub16Fem: "Sub-16 Femenino",
+        sub21Fem: "Sub-21 Femenino",
+        sub16Masc: "Sub-16 Masculino",
+        sub21Masc: "Sub-21 Masculino",
+      },
     },
 
     gamesByField: {
